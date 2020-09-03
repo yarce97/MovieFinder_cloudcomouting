@@ -1,0 +1,243 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+body, html, .border
+{
+	height: 100%;
+	width: 100%;
+}
+.border
+{
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}	
+.container-login-form
+{
+	
+}
+.login_form_title
+{
+	font-size: 32px;
+	color: #403866;
+	line-height: 1.2;
+	text-transform: uppercase;
+	text-align: center;
+
+	width: 100%;
+	display: block;
+	
+}
+.wrap_validate_input
+{
+	width: 100%;
+	position: relative;
+	background-color: #e6ege6;
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+.input100
+{
+	line-height: 1.2;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 20px;
+	display: block;
+	background: transparent;
+	height: 50px;
+	padding: 0 20px 0 38px;
+}
+.container-create-account
+{
+	text-align: right;	
+}
+.container-login-button
+{
+	width: 100%;
+	line-height: 1.2;
+	text-transform: uppercase;
+	
+	justify-content: center;
+	padding: 0 20px;
+	height: 62px;
+}
+
+
+input[type="submit"] 
+{
+	font-size: 16px;
+	color: #ffffff;
+	width: 100%;
+	line-height: 1.2;
+	text-transform: uppercase;	
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	height: 62px; 
+	border-radius: 5px;
+	background-color: powderblue;
+}
+/*CreateLogin*/
+.createAccount_form_title
+{	
+	font-size: 32px;
+	color: black;
+	line-height: 1.2;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+.submit_btn
+{
+	width: 100%;
+	line-height: 1.2;
+	text-transform: uppercase;	
+	justify-content: center;
+	padding: 0 20px;
+	height: 62px;
+}
+
+.container_login_create
+{
+	text-align: right;
+}
+/*MainPage*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: powderblue;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.saved_movies
+{
+	background-color: #98cdcb;
+    padding: 20px;
+    width: 100%;
+    height: 100%; 
+    text-align: center;
+    text-transform: Capital;
+}
+
+section 
+{
+
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+.welcome_user
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	color: black;
+	line-height: 1.2;
+	text-align: left;
+	width: 100%;
+	display: block;	
+}
+.logout_main
+{	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: black;
+	line-height: 1.2;
+	text-align: right;
+	width: 100%;
+	display: block;	
+}
+.saved_movies_title
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+	color: black;
+	line-height: 1.2;
+	text-transform: uppercase;
+	text-align: left;
+	width: 100%;
+	display: block;
+}
+.find_movies_title
+{
+	
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: black;
+	line-height: 1.2;
+	text-align: left;
+	width: 100%;
+	display: block;
+	text-transform: capital;
+}
+.submit_container
+{
+	text-transform: uppercase;	
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;	
+}
+
+select {
+    width: 20%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+	text-align: center;	
+	justify-content: center;
+	align-items: center;
+}
+.content_query_results
+{		
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	width: 100%;
+	height: 100%;
+}
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+td
+{
+	width: 25%;
+}
+
+th, td 
+{
+	padding: 15px;
+    text-align: left;
+    font-size: 10;
+    text-transform: capitalize;
+}
+th:hover {background-color: #f5f5f5;}
+.find_movies
+{
+	background-color: #98cdcb;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	width: 100%;
+	height: 100%;
+}
